@@ -1,4 +1,4 @@
-package sunkey.nosql;
+package sunkey.datalayer.nosql;
 
 /**
  * Alibaba tablestore

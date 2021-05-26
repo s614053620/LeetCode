@@ -1,4 +1,4 @@
-package sunkey.mysql;
+package sunkey.datalayer;
 
 /**
  * @author Sunkey

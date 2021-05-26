@@ -1,4 +1,4 @@
-package sunkey.nosql.redis;
+package sunkey.datalayer.nosql;
 
 /**
  * @author Sunkey
