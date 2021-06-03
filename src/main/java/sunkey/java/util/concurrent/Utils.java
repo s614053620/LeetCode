@@ -4,6 +4,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @author Sunkey
@@ -16,6 +17,8 @@ public class Utils {
         CyclicBarrier cb;
         Semaphore s;
         ConcurrentHashMap map;
+        AtomicInteger inc = null;
+        inc.getAndIncrement();
 
     }
 

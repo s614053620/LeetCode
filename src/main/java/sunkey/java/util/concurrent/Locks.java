@@ -12,7 +12,19 @@ public class Locks {
 
     public static void main(String[] args) {
 
+    }
 
+    static void blq() throws InterruptedException {
+        // Require MultiThread
+        BlockQueue bq = new BlockQueue();
+        bq.push("A");
+        bq.push("B");
+        bq.take();
+        bq.push("C");
+        bq.take();
+        bq.push("D");
+        bq.take();
+        bq.take();
     }
 
     static class BlockQueue {
